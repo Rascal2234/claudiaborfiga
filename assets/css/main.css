@@ -155,12 +155,12 @@ div.sidebar {
             }
 
             div.sidebar a:hover {
-              background-color: #d7a7d8;  
+              background-color: #d16091;  
               color: #3e3e3e;
             }
 
             #main .openbtn:hover {
-                color: #e6b1e7;
+                color: #d16091;
             }
 
             #main {
@@ -189,7 +189,7 @@ div.sidebar {
 }
 
 .footer .copyright p {
-  margin: 20px;
+  margin: 10px;
 }
 
 
@@ -251,6 +251,7 @@ section,
   scroll-margin-top: 30px;
   overflow: clip;
   margin: 10px; 0px; 0px; 0px;
+  width: 800px;
   text-align: left;
 }
 
@@ -326,7 +327,7 @@ section,
   position: relative;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
   .contact {
     background-position: center 0px;
     background-size: contain;
