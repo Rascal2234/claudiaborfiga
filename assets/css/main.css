@@ -247,11 +247,11 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
+  max-width: 800px;
   padding: 0px 0;
   scroll-margin-top: 30px;
   overflow: clip;
   margin: 10px; 0px; 0px; 0px;
-  width: 800px;
   text-align: left;
 }
 
