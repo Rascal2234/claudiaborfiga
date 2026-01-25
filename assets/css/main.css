@@ -155,12 +155,12 @@ div.sidebar {
             }
 
             div.sidebar a:hover {
-              background-color: #d16091;  
+              background-color: #F2BCED;  
               color: #3e3e3e;
             }
 
             #main .openbtn:hover {
-                color: #d16091;
+                color: #F2BCED;
             }
 
             #main {
