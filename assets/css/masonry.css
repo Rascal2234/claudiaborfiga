@@ -11,7 +11,7 @@
 .masonry .brick {
   margin-bottom: 20px;
   display: inline-block; /* Fix the misalignment of items */
-  vertical-align: baseline; /* Keep the item on the very top */
+  vertical-align: top; /* Keep the item on the very top */
 }
 
 /* Masonry image effects */
