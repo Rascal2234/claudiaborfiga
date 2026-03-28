@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Fonts */
 :root {
-  --default-font: "Quicksand", sans-serif;
-  --heading-font: "Quicksand", sans-serif;
-  --nav-font: "Quicksand", sans-serif;
+  --default-font: "Courier Prime",  sans-serif;
+  --heading-font: "BBH Sans Hegarty", sans-serif;
+  --nav-font: "Courier Prime",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #516150; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #000000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -25,7 +24,7 @@
   --nav-hover-color: #000000; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #000000; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #5b5b5b; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #000000; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -85,16 +84,20 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   position: sticky;
+  z-index: 1;
   top: 0;
   color: var(--default-color);
   background-color: #ffffff;
   padding: 15px 0;
   transition: all 0.5s;
-  z-index: 997;
+  
 }
 
+
 .header .logo {
+  display: flex;
   line-height: 1;
+  margin-right: 20px;
 }
 
 .header .logo img {
@@ -128,6 +131,7 @@ div.sidebar {
 
             div.sidebar a {
                 display: block;
+                z-index: 1;
                 padding: 8px 8px 4px 32px;
                 text-decoration: none;
                 font-size: 18px;
@@ -155,12 +159,12 @@ div.sidebar {
             }
 
             div.sidebar a:hover {
-              background-color: #F2BCED;  
+              background-color: #e6b1e7;  
               color: #3e3e3e;
             }
 
             #main .openbtn:hover {
-                color: #F2BCED;
+                color: #e6b1e7;
             }
 
             #main {
@@ -189,7 +193,7 @@ div.sidebar {
 }
 
 .footer .copyright p {
-  margin: 10px;
+  margin: 20px;
 }
 
 
@@ -251,7 +255,7 @@ section,
   scroll-margin-top: 30px;
   overflow: clip;
   margin: 40px; 0px; 0px; 0px;
-  text-align: left;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
@@ -266,7 +270,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  text-align: left;
+  text-align: center;
   padding-bottom: 60px;
   position: relative;
 }
